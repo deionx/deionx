@@ -1,0 +1,41 @@
+<!-- deionx full wordmark -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="deionx logo">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0" stop-color="#6C63FF"/>
+      <stop offset="0.5" stop-color="#00E0FF"/>
+      <stop offset="1" stop-color="#00FFA3"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .brand { font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; font-weight: 700; letter-spacing: -2px; }
+      .tag { font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; font-weight: 500; font-size: 36px; fill:#9aa0b4; }
+    </style>
+  </defs>
+
+  <!-- background subtle shape -->
+  <rect width="100%" height="100%" fill="transparent"/>
+
+  <!-- monogram block -->
+  <g transform="translate(80,40)">
+    <rect x="0" y="0" width="220" height="220" rx="28" fill="url(#g1)" opacity="0.12"/>
+    <g transform="translate(24,24)" filter="url(#glow)">
+      <path d="M40 160 L40 40 L90 40 C120 40 140 60 140 92 C140 124 120 144 90 144 L40 144 Z" fill="#0f1724"/>
+      <path d="M170 160 L170 40 L120 40 C90 40 70 60 70 92 C70 124 90 144 120 144 L170 144 Z" fill="#071226" opacity="0.9"/>
+      <text x="18" y="120" font-size="110" fill="url(#g1)" font-weight="800" font-family="Inter, Arial" style="letter-spacing:2px">DX</text>
+    </g>
+  </g>
+
+  <!-- wordmark -->
+  <g transform="translate(360,140)">
+    <text class="brand" x="0" y="0" font-size="86" fill="#0f1724">deion</text>
+    <text class="brand" x="360" y="0" font-size="86" fill="url(#g1)">x</text>
+    <text class="tag" x="0" y="60">Full‑stack Engineer • Systems Architect</text>
+  </g>
+</svg>
