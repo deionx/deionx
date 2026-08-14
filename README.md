@@ -1,22 +1,17 @@
 <div align="center">
 
-<img src="./deionx-logo.svg" width="420" alt="DEIONX" />
-
 # DEIONX
 
-### Full-Stack Engineer · Systems Architect · AI Systems Specialist
+### Full-Stack Engineer · Systems Architect · AI Engineer
 
 **I build software that survives contact with reality.**
 
-Production systems. Developer tools. AI infrastructure.  
-Fast interfaces. Reliable APIs. Automated everything.
+Production systems · Developer tooling · AI · Automation · Infrastructure
 
 <br />
 
-[![GitHub](https://img.shields.io/badge/GitHub-deionx-181717?style=for-the-badge&logo=github)](https://github.com/deionx)
-[![Systems](https://img.shields.io/badge/Systems-Architecture-7C3AED?style=for-the-badge)](#)
-[![AI](https://img.shields.io/badge/AI-Applied-06B6D4?style=for-the-badge)](#)
-[![Engineering](https://img.shields.io/badge/Engineering-Production--Grade-22C55E?style=for-the-badge)](#)
+[![GitHub](https://img.shields.io/badge/GitHub-DEIONX-181717?style=for-the-badge&logo=github)](https://github.com/deionx)
+[![Profile Views](https://komarev.com/ghpvc/?username=deionx&style=for-the-badge&color=7C3AED)](https://github.com/deionx)
 
 </div>
 
@@ -24,31 +19,17 @@ Fast interfaces. Reliable APIs. Automated everything.
 
 ## `> whoami`
 
-I'm **Deion** — a pragmatic engineer focused on the intersection of:
+I'm **Deion** — a software engineer interested in the intersection of:
 
-```text
-        SOFTWARE
-           │
-     ┌─────┼─────┐
-     ▼     ▼     ▼
-  SYSTEMS   AI   PRODUCT
-     │     │     │
-     └─────┼─────┘
-           ▼
-      REAL-WORLD
-       OUTCOMES
-```
+- ⚙️ **Systems**
+- 🧠 **AI**
+- 🎨 **Product**
+- 🚀 **Infrastructure**
+- 🤖 **Automation**
 
-I design and ship **production-grade software** with an obsession for reliability, performance, developer experience, and clean architecture.
+I like taking ambiguous problems, turning them into clean systems, and shipping software that is **fast, observable, maintainable, and useful**.
 
-My work spans:
-
-- ⚙️ **System Design** — resilient, observable, cost-efficient architectures
-- 🔌 **API Engineering** — contract-first APIs, schema evolution, compatibility
-- 🎨 **Frontend Engineering** — accessible, component-driven, high-performance interfaces
-- 🧠 **AI Systems** — model integration, inference, orchestration, and observability
-- 🤖 **Automation** — CI/CD, infrastructure, release pipelines, developer tooling
-- ⚡ **Performance** — latency, throughput, profiling, benchmarks, and real-user metrics
+My engineering philosophy is simple:
 
 > **Good software isn't just code that works.  
 > It's software that keeps working.**
@@ -57,141 +38,359 @@ My work spans:
 
 ## `// engineering philosophy`
 
-I don't optimize for clever code.
+```mermaid
+flowchart LR
+    A["Problem"] --> B["Constraints"]
+    B --> C["Architecture"]
+    C --> D["Implementation"]
+    D --> E["Measure"]
+    E --> F["Improve"]
+    F --> C
 
-I optimize for **systems that are easy to understand, hard to break, and cheap to operate.**
+    style A fill:#18181b,color:#fff,stroke:#7c3aed
+    style B fill:#18181b,color:#fff,stroke:#7c3aed
+    style C fill:#18181b,color:#fff,stroke:#06b6d4
+    style D fill:#18181b,color:#fff,stroke:#06b6d4
+    style E fill:#18181b,color:#fff,stroke:#22c55e
+    style F fill:#18181b,color:#fff,stroke:#22c55e
+```
 
-### 01 · Design before implementation
+### The rules
 
-Contracts, boundaries, failure modes, and telemetry come first.
+**01 · Design before implementation**
 
-### 02 · Measure everything
+Understand the problem, boundaries, constraints, and failure modes first.
 
-If it matters, measure it.
+**02 · Measure everything**
 
-Metrics → traces → logs → SLOs → decisions.
+If something matters, it should be observable.
 
-### 03 · Automate the boring parts
+**03 · Automate the boring parts**
 
-Manual toil is technical debt with a clock attached.
+Manual repetition is an opportunity for tooling.
 
-### 04 · Make failure boring
+**04 · Make failure boring**
 
-Timeouts. Retries. Circuit breakers. Rollbacks.  
-The system should know what to do when things go wrong.
+Timeouts, retries, rollbacks, graceful degradation, and clear recovery paths.
 
-### 05 · Ship progressively
+**05 · Keep complexity earned**
 
-Tests → canaries → feature flags → observability → rollout.
+Every abstraction should solve a real problem.
 
-### 06 · Keep complexity earned
+**06 · Ship progressively**
 
-Every abstraction should pay rent.
-
----
-
-## `// stack`
-
-### Languages
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-
-### Frontend
-
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Storybook](https://img.shields.io/badge/Storybook-FF4785?style=flat-square&logo=storybook&logoColor=white)
-
-### Backend
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=flat-square&logo=google&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-### Cloud & Infrastructure
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-
-### Observability & Data
-
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square&logo=opentelemetry&logoColor=white)
-![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white)
-![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black)
+Small changes. Fast feedback. Observable deployments.
 
 ---
 
-## `// what I build`
+# `// stack`
+
+## Languages
+
+<p>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
+<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+</p>
+
+## Frontend
+
+<p>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+</p>
+
+## Backend
+
+<p>
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+</p>
+
+## Infrastructure
+
+<p>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+<img src="https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white" />
+<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
+</p>
+
+## Observability
+
+<p>
+<img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
+<img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenTelemetry-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" />
+<img src="https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white" />
+</p>
+
+---
+
+# `// what I build`
 
 <table>
 <tr>
+
 <td width="50%" valign="top">
 
-### ⚙️ Platform Engineering
+## ⚙️ Systems
 
-Reliable APIs and backend platforms designed around:
+I enjoy designing software around:
 
-- clear contracts
+- clear boundaries
+- explicit contracts
 - predictable failure modes
+- scalability
+- performance
 - observability
-- horizontal scalability
-- backwards compatibility
 
 </td>
+
 <td width="50%" valign="top">
 
-### 🧠 AI Systems
+## 🧠 AI
 
-Applied AI that belongs in production—not just a notebook.
+Interested in practical AI systems:
 
 - model integration
-- inference pipelines
-- orchestration
+- inference
+- agents
 - evaluation
-- telemetry
-- safe deployment
+- automation
+- AI-native applications
 
 </td>
+
 </tr>
 
 <tr>
+
 <td width="50%" valign="top">
 
-### 🎨 Product Engineering
+## 🎨 Product
 
-Interfaces that are fast, accessible, composable, and intentionally designed.
+Building interfaces that are:
 
-- component systems
-- design tokens
-- performance
-- accessibility
-- cross-product consistency
+- fast
+- accessible
+- composable
+- maintainable
+- intentionally designed
 
 </td>
+
 <td width="50%" valign="top">
 
-### 🤖 Developer Infrastructure
+## 🚀 Infrastructure
 
-Tools that make engineers faster.
+Making engineering teams faster through:
 
 - CI/CD
-- release automation
-- local development
-- infrastructure as code
+- automation
+- cloud infrastructure
+- developer tooling
 - reproducible environments
-- automated quality gates
+- observability
+
+</td>
+
+</tr>
+</table>
+
+---
+
+# `// system architecture`
+
+When I think about a production system, I think in layers:
+
+```mermaid
+flowchart TB
+
+    U["Users / Clients"]
+
+    U --> EDGE["Edge / CDN"]
+
+    EDGE --> API["API Gateway"]
+
+    API --> AUTH["Authentication"]
+    API --> SERVICES["Application Services"]
+
+    SERVICES --> WORKERS["Background Workers"]
+    SERVICES --> CACHE["Redis / Cache"]
+    SERVICES --> DB["Primary Database"]
+
+    WORKERS --> QUEUE["Message Queue"]
+    QUEUE --> EVENTS["Event Processing"]
+
+    DB --> ANALYTICS["Analytics / Data"]
+    EVENTS --> ANALYTICS
+
+    SERVICES --> OBS["Observability"]
+    WORKERS --> OBS
+    API --> OBS
+
+    OBS --> METRICS["Metrics"]
+    OBS --> LOGS["Logs"]
+    OBS --> TRACES["Traces"]
+    OBS --> ALERTS["Alerts"]
+
+    style U fill:#18181b,color:#fff,stroke:#7c3aed
+    style EDGE fill:#18181b,color:#fff,stroke:#7c3aed
+    style API fill:#18181b,color:#fff,stroke:#06b6d4
+    style AUTH fill:#18181b,color:#fff,stroke:#06b6d4
+    style SERVICES fill:#18181b,color:#fff,stroke:#06b6d4
+    style WORKERS fill:#18181b,color:#fff,stroke:#06b6d4
+    style CACHE fill:#18181b,color:#fff,stroke:#f59e0b
+    style DB fill:#18181b,color:#fff,stroke:#22c55e
+    style QUEUE fill:#18181b,color:#fff,stroke:#f59e0b
+    style EVENTS fill:#18181b,color:#fff,stroke:#f59e0b
+    style ANALYTICS fill:#18181b,color:#fff,stroke:#22c55e
+    style OBS fill:#18181b,color:#fff,stroke:#ec4899
+    style METRICS fill:#18181b,color:#fff,stroke:#ec4899
+    style LOGS fill:#18181b,color:#fff,stroke:#ec4899
+    style TRACES fill:#18181b,color:#fff,stroke:#ec4899
+    style ALERTS fill:#18181b,color:#fff,stroke:#ec4899
+```
+
+### Architectural defaults
+
+| Principle | Approach |
+|---|---|
+| **Boundaries** | Keep responsibilities explicit |
+| **APIs** | Stable contracts and predictable behavior |
+| **Data** | Choose storage based on workload |
+| **Async work** | Queues and workers where appropriate |
+| **Caching** | Reduce unnecessary computation and I/O |
+| **Observability** | Metrics, logs, and traces from day one |
+| **Deployments** | Small, reversible, observable changes |
+| **Failure** | Graceful degradation over catastrophic failure |
+
+---
+
+# `// development lifecycle`
+
+```mermaid
+flowchart LR
+
+    P["Problem"] --> R["Research"]
+    R --> D["Design"]
+    D --> B["Build"]
+    B --> T["Test"]
+    T --> S["Ship"]
+    S --> O["Observe"]
+    O --> I["Iterate"]
+
+    I --> D
+
+    style P fill:#18181b,color:#fff,stroke:#7c3aed
+    style R fill:#18181b,color:#fff,stroke:#7c3aed
+    style D fill:#18181b,color:#fff,stroke:#06b6d4
+    style B fill:#18181b,color:#fff,stroke:#06b6d4
+    style T fill:#18181b,color:#fff,stroke:#22c55e
+    style S fill:#18181b,color:#fff,stroke:#22c55e
+    style O fill:#18181b,color:#fff,stroke:#f59e0b
+    style I fill:#18181b,color:#fff,stroke:#ec4899
+```
+
+**Problem → Research → Design → Build → Test → Ship → Observe → Iterate**
+
+---
+
+# `// AI × software`
+
+```mermaid
+flowchart LR
+
+    INPUT["User / Application"] --> ROUTER["AI Router"]
+
+    ROUTER --> MODEL["Model"]
+    ROUTER --> TOOLS["Tools"]
+    ROUTER --> MEMORY["Context / Memory"]
+
+    MODEL --> EVAL["Evaluation"]
+    TOOLS --> EVAL
+    MEMORY --> EVAL
+
+    EVAL --> OBS["Observability"]
+
+    OBS --> COST["Cost"]
+    OBS --> LATENCY["Latency"]
+    OBS --> QUALITY["Quality"]
+    OBS --> RELIABILITY["Reliability"]
+
+    style INPUT fill:#18181b,color:#fff,stroke:#7c3aed
+    style ROUTER fill:#18181b,color:#fff,stroke:#06b6d4
+    style MODEL fill:#18181b,color:#fff,stroke:#06b6d4
+    style TOOLS fill:#18181b,color:#fff,stroke:#06b6d4
+    style MEMORY fill:#18181b,color:#fff,stroke:#06b6d4
+    style EVAL fill:#18181b,color:#fff,stroke:#22c55e
+    style OBS fill:#18181b,color:#fff,stroke:#ec4899
+    style COST fill:#18181b,color:#fff,stroke:#f59e0b
+    style LATENCY fill:#18181b,color:#fff,stroke:#f59e0b
+    style QUALITY fill:#18181b,color:#fff,stroke:#22c55e
+    style RELIABILITY fill:#18181b,color:#fff,stroke:#22c55e
+```
+
+The interesting part isn't simply **calling a model**.
+
+It's building systems around AI that remain:
+
+`reliable` · `observable` · `fast` · `affordable` · `testable`
+
+---
+
+# `// currently exploring`
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+### AI Systems
+
+Agents  
+Inference  
+Evaluation  
+Tool use
+
+</td>
+
+<td align="center" width="25%">
+
+### Distributed Systems
+
+Queues  
+Events  
+Caching  
+Reliability
+
+</td>
+
+<td align="center" width="25%">
+
+### Developer Experience
+
+Tooling  
+Automation  
+CI/CD  
+Workflows
+
+</td>
+
+<td align="center" width="25%">
+
+### Performance
+
+Latency  
+Throughput  
+Profiling  
+Optimization
 
 </td>
 </tr>
@@ -199,177 +398,65 @@ Tools that make engineers faster.
 
 ---
 
-## `// selected work`
+# `// engineering > hype`
 
-### `01` · Platform API
+Technology is a tool.
 
-**Lead Engineer**
+The question I care about is:
 
-Production API architecture focused on contract stability, performance, and operational confidence.
+> **Does it make the system better?**
 
-**Focus**
+```mermaid
+flowchart TD
 
-`API Design` · `Schema Evolution` · `Performance` · `Canary Deployments` · `Contract Testing`
+    A["Interesting Technology"] --> B{"Solves a Real Problem?"}
 
----
+    B -->|No| C["Don't Use It"]
+    B -->|Yes| D{"Complexity Worth It?"}
 
-### `02` · Design System
+    D -->|No| C
+    D -->|Yes| E["Prototype"]
 
-**Creator**
+    E --> F{"Measured Improvement?"}
 
-A reusable interface foundation built around tokens, accessible primitives, and cross-product consistency.
+    F -->|No| C
+    F -->|Yes| G["Production"]
 
-**Focus**
-
-`Design Tokens` · `Accessibility` · `Component Architecture` · `Theming` · `Visual Regression`
-
----
-
-### `03` · Dev Automation Suite
-
-**Architect**
-
-A developer platform for standardized CI, release automation, and local tooling.
-
-**Focus**
-
-`CI/CD` · `Release Engineering` · `Developer Experience` · `Observability`
-
-> Result: dramatically shorter release cycles and a more predictable engineering workflow.
-
----
-
-### `04` · Playground / Experiments
-
-**Research & Prototyping**
-
-Small, focused experiments exploring the edges of modern software engineering.
-
-`WASM` · `Edge Compute` · `Microbenchmarks` · `Systems Research` · `Proofs of Concept`
-
----
-
-## `// architecture`
-
-My default architecture looks something like this:
-
-```text
-                         ┌──────────────────┐
-                         │     CLIENTS      │
-                         │ Web · Mobile · AI│
-                         └────────┬─────────┘
-                                  │
-                                  ▼
-                     ┌────────────────────────┐
-                     │       API GATEWAY      │
-                     │ Auth · Routing · Rate  │
-                     │ Limits · Edge Logic    │
-                     └───────────┬────────────┘
-                                 │
-                ┌────────────────┼────────────────┐
-                ▼                ▼                ▼
-        ┌──────────────┐ ┌──────────────┐ ┌──────────────┐
-        │   SERVICE A  │ │   SERVICE B  │ │   SERVICE C  │
-        │              │ │              │ │              │
-        └──────┬───────┘ └──────┬───────┘ └──────┬───────┘
-               │                │                │
-               └────────────────┼────────────────┘
-                                ▼
-                    ┌────────────────────────┐
-                    │     EVENT / DATA       │
-                    │ Postgres · Redis · MQ   │
-                    └───────────┬────────────┘
-                                │
-                                ▼
-                    ┌────────────────────────┐
-                    │     OBSERVABILITY      │
-                    │ Metrics · Traces · Logs │
-                    │ SLOs · Alerts · Events  │
-                    └────────────────────────┘
+    style A fill:#18181b,color:#fff,stroke:#7c3aed
+    style B fill:#18181b,color:#fff,stroke:#06b6d4
+    style C fill:#18181b,color:#fff,stroke:#ef4444
+    style D fill:#18181b,color:#fff,stroke:#06b6d4
+    style E fill:#18181b,color:#fff,stroke:#f59e0b
+    style F fill:#18181b,color:#fff,stroke:#22c55e
+    style G fill:#18181b,color:#fff,stroke:#22c55e
 ```
 
-### Architectural defaults
-
-- **Single responsibility** per service
-- **Explicit ownership** and boundaries
-- **Observable by default**
-- **Contract-driven APIs**
-- **Event-driven where it reduces coupling**
-- **Progressive delivery**
-- **Automated rollback paths**
-- **Performance measured, not assumed**
+> **Complexity should be earned.**
 
 ---
 
-## `// currently thinking about`
-
-```text
-┌──────────────────────────────────────────────────────────────┐
-│                                                              │
-│  AI × SOFTWARE SYSTEMS                                       │
-│                                                              │
-│  How do we build AI-native software that is:                 │
-│                                                              │
-│       reliable      observable      affordable               │
-│       fast          composable      safe                     │
-│                                                              │
-│  ...without turning the architecture into a science project? │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
-```
-
-I'm particularly interested in the space where **AI systems meet real production constraints**:
-
-`latency` · `cost` · `reliability` · `evaluation` · `observability` · `developer experience`
-
----
-
-## `// engineering > hype`
-
-I care less about what technology is trending and more about whether it solves the problem.
-
-```text
-                 ┌─────────────┐
-                 │   PROBLEM   │
-                 └──────┬──────┘
-                        │
-                        ▼
-                 ┌─────────────┐
-                 │ CONSTRAINTS │
-                 └──────┬──────┘
-                        │
-                        ▼
-              ┌──────────────────┐
-              │ SIMPLEST SYSTEM  │
-              │ THAT CAN WORK    │
-              └────────┬─────────┘
-                       │
-                       ▼
-                 ┌─────────────┐
-                 │   MEASURE   │
-                 └──────┬──────┘
-                        │
-                        ▼
-                 ┌─────────────┐
-                 │   IMPROVE   │
-                 └──────┬──────┘
-                        │
-                        └──────────► repeat
-```
-
----
-
-## `// github`
+# `// github`
 
 <div align="center">
 
-### Build things. Break things. Learn things. Ship things.
+<a href="https://github.com/deionx?tab=repositories">
+<img src="https://img.shields.io/badge/Explore_My_Repositories-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
-**The best architecture is the one that makes tomorrow easier.**
+<br />
+<br />
+
+<a href="https://github.com/deionx">
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=deionx&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" />
+</a>
+
+<a href="https://github.com/deionx">
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=deionx&layout=compact&hide_border=true&theme=transparent" />
+</a>
 
 <br />
 
-⭐ If something here is useful, feel free to explore the repositories.
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=deionx&hide_border=true&theme=transparent" />
 
 </div>
 
@@ -384,5 +471,9 @@ I care less about what technology is trending and more about whether it solves t
 <br />
 
 **Make it work. Make it observable. Make it last.**
+
+<br />
+
+⭐ **Build things. Break things. Learn things. Ship things.**
 
 </div>
