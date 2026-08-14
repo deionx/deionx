@@ -1,5 +1,5 @@
 <div align="center">
-
+[![GitHub](https://raw.githubusercontent.com/deionx/deionx/refs/heads/main/deionx-logo.svg)](https://github.com/deionx)
 # DEIONX
 
 ### Full-Stack Engineer · Systems Architect · AI Engineer
