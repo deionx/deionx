@@ -1,5 +1,5 @@
 <div align="center">
-[![Deionx](https://raw.githubusercontent.com/deionx/deionx/refs/heads/main/deionx-logo.svg)](https://github.com/deionx)
+<img src="./deionx-logo.svg" width="420" alt="DEIONX" />
     
 # DEIONX
 
